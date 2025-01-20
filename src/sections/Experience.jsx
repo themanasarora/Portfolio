@@ -2,8 +2,8 @@ import { Suspense, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 
-import Developer from '../components/Developer.jsx';
-import CanvasLoader from '../components/Loading.jsx';
+import Developer from '../Components/Developer.jsx';
+import CanvasLoader from '../Components/Loading.jsx';
 import { workExperiences } from '../index.js';
 
 const WorkExperience = () => {
